@@ -1,0 +1,11 @@
+[Info  - 16:48:03] Initialising intelephense 1.4.1
+[Info  - 16:48:03] Initialised in 31 ms
+[Warn  - 16:48:05] file:///home/mauroslucios/Documentos/vagrant-setup-php/www/html/laravel_6.0/vendor/fzaninotto/faker/src/Faker/Provider/nl_BE/Text.php is over the maximum file size of 1000000 bytes.
+[Info  - 16:48:05] Indexing started.
+[Info  - 16:48:37] Indexing ended. 5240 files indexed in 31s.
+[Info  - 16:48:37] Writing state to /home/mauroslucios/Documentos/vagrant-setup-php/www/html/laravel_6.0/~/.vscode-root/User/workspaceStorage/30c1334e02861190f3be5754a20b735b/bmewburn.vscode-intelephense-client/637683e4.
+[Info  - 16:48:38] Wrote state in 1.4s.
+[Info  - 16:48:44] Indexing started.
+[Info  - 16:48:45] Indexing ended. 1 files indexed in 0s.
+[Info  - 16:48:47] Indexing started.
+[Info  - 16:48:47] Indexing ended. 3 files indexed in 0s.

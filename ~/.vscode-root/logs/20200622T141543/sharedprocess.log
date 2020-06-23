@@ -1,0 +1,3 @@
+[2020-06-22 14:15:49.867] [sharedprocess] [info] main {"machineId":"399e2a8ec3f866334c2aeeaf517e1496eab66c1b69d5e73b1a2e720fe73af698","windowId":2}
+[2020-06-22 14:15:50.033] [sharedprocess] [error] [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/home/mauroslucios/Documentos/vagrant-setup-php/www/html/laravel_6.0/~/.vscode-root/User/snippets'
+[2020-06-22 14:16:29.923] [sharedprocess] [info] Starting to clean up unused language packs.

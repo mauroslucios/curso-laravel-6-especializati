@@ -1,0 +1,19 @@
+[2020-06-22 16:47:27.059] [renderer1] [warning] UNRESPONSIVE extension host, 'Zignd.html-css-class-completion' took 89% of 5243.555ms, saved PROFILE here: '/tmp/exthost-5bbb45.cpuprofile' [{"id":"aaron-bond.better-comments","total":1207,"percentage":0},{"id":"alefragnani.project-manager","total":22044,"percentage":0},{"id":"bajdzis.vscode-database","total":1452,"percentage":0},{"id":"donjayamanne.githistory","total":18597,"percentage":0},{"id":"eamodio.gitlens","total":1577,"percentage":0},{"id":"EditorConfig.EditorConfig","total":1690,"percentage":0},{"id":"gc","total":41955,"percentage":1},{"id":"jakethashi.vscode-angular2-emmet","total":155,"percentage":0},{"id":"ms-vsliveshare.vsliveshare","total":5632,"percentage":0},{"id":"mtxr.sqltools","total":102873,"percentage":2},{"id":"PKief.material-icon-theme","total":30108,"percentage":1},{"id":"program","total":56168,"percentage":1},{"id":"ritwickdey.LiveServer","total":2097,"percentage":0},{"id":"self","total":180364,"percentage":3},{"id":"vscode-icons-team.vscode-icons","total":17277,"percentage":0},{"id":"vscode.emmet","total":3673,"percentage":0},{"id":"vscode.git","total":73351,"percentage":1},{"id":"vscode.github-authentication","total":490,"percentage":0},{"id":"vscode.merge-conflict","total":3859,"percentage":0},{"id":"vscode.npm","total":9836,"percentage":0},{"id":"Zignd.html-css-class-completion","total":4668380,"percentage":89}]
+[2020-06-22 16:47:37.611] [renderer1] [error] Agent terminated with exit code: 0 and signal null: A fatal error occurred. The required library libhostfxr.so could not be found.
+If this is a self-contained application, that library should exist in [/root/.vscode/extensions/ms-vsliveshare.vsliveshare-1.0.2354/dotnet_modules/].
+If this is a framework-dependent application, install the runtime in the global location [/usr/share/dotnet] or use the DOTNET_ROOT environment variable to specify the runtime location or register the runtime location in [/etc/dotnet/install_location].
+
+The .NET Core runtime can be found at:- https://aka.ms/dotnet-core-applaunch?missing_runtime=true&arch=x64&rid=ubuntu.20.04-x64: Error: Agent terminated with exit code: 0 and signal null: A fatal error occurred. The required library libhostfxr.so could not be found.
+If this is a self-contained application, that library should exist in [/root/.vscode/extensions/ms-vsliveshare.vsliveshare-1.0.2354/dotnet_modules/].
+If this is a framework-dependent application, install the runtime in the global location [/usr/share/dotnet] or use the DOTNET_ROOT environment variable to specify the runtime location or register the runtime location in [/etc/dotnet/install_location].
+
+The .NET Core runtime can be found at:- https://aka.ms/dotnet-core-applaunch?missing_runtime=true&arch=x64&rid=ubuntu.20.04-x64
+    at ChildProcess.<anonymous> (/root/.vscode/extensions/ms-vsliveshare.vsliveshare-1.0.2354/src/abstractions/node/agent.ts:306:32)
+    at ChildProcess.emit (events.js:208:15)
+    at ChildProcess.EventEmitter.emit (domain.js:476:20)
+    at maybeClose (internal/child_process.js:1021:16)
+    at Socket.<anonymous> (internal/child_process.js:430:11)
+    at Socket.emit (events.js:203:13)
+    at Socket.EventEmitter.emit (domain.js:476:20)
+    at Pipe.<anonymous> (net.js:588:12)
+[2020-06-22 16:47:37.612] [renderer1] [error] ENOENT: no such file or directory, unlink '/root/.local/share/vsliveshare/cascade.json': Error: ENOENT: no such file or directory, unlink '/root/.local/share/vsliveshare/cascade.json'

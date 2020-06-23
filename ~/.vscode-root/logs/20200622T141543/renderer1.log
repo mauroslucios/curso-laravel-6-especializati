@@ -1,0 +1,21 @@
+[2020-06-22 14:16:06.517] [renderer1] [warning] UNRESPONSIVE extension host, 'ritwickdey.LiveServer' took 57% of 5765.932ms, saved PROFILE here: '/tmp/exthost-6d61c1.cpuprofile' [{"id":"gc","total":37835,"percentage":1},{"id":"joelday.docthis","total":841263,"percentage":15},{"id":"ms-vsliveshare.vsliveshare","total":322686,"percentage":6},{"id":"mtxr.sqltools","total":122114,"percentage":2},{"id":"PKief.material-icon-theme","total":29370,"percentage":1},{"id":"ritwickdey.LiveServer","total":3311469,"percentage":57},{"id":"self","total":986704,"percentage":17},{"id":"vscode-icons-team.vscode-icons","total":49858,"percentage":1},{"id":"Zignd.html-css-class-completion","total":64385,"percentage":1}]
+[2020-06-22 14:16:22.987] [renderer1] [error] Agent terminated with exit code: 0 and signal null: A fatal error occurred. The required library libhostfxr.so could not be found.
+If this is a self-contained application, that library should exist in [/root/.vscode/extensions/ms-vsliveshare.vsliveshare-1.0.2354/dotnet_modules/].
+If this is a framework-dependent application, install the runtime in the global location [/usr/share/dotnet] or use the DOTNET_ROOT environment variable to specify the runtime location or register the runtime location in [/etc/dotnet/install_location].
+
+The .NET Core runtime can be found at:
+  - https://aka.ms/dotnet-core-applaunch?missing_runtime=true&arch=x64&rid=ubuntu.20.04-x64: Error: Agent terminated with exit code: 0 and signal null: A fatal error occurred. The required library libhostfxr.so could not be found.
+If this is a self-contained application, that library should exist in [/root/.vscode/extensions/ms-vsliveshare.vsliveshare-1.0.2354/dotnet_modules/].
+If this is a framework-dependent application, install the runtime in the global location [/usr/share/dotnet] or use the DOTNET_ROOT environment variable to specify the runtime location or register the runtime location in [/etc/dotnet/install_location].
+
+The .NET Core runtime can be found at:
+  - https://aka.ms/dotnet-core-applaunch?missing_runtime=true&arch=x64&rid=ubuntu.20.04-x64
+    at ChildProcess.<anonymous> (/root/.vscode/extensions/ms-vsliveshare.vsliveshare-1.0.2354/src/abstractions/node/agent.ts:306:32)
+    at ChildProcess.emit (events.js:208:15)
+    at ChildProcess.EventEmitter.emit (domain.js:476:20)
+    at maybeClose (internal/child_process.js:1021:16)
+    at Socket.<anonymous> (internal/child_process.js:430:11)
+    at Socket.emit (events.js:203:13)
+    at Socket.EventEmitter.emit (domain.js:476:20)
+    at Pipe.<anonymous> (net.js:588:12)
+[2020-06-22 14:16:23.040] [renderer1] [error] ENOENT: no such file or directory, unlink '/root/.local/share/vsliveshare/cascade.json': Error: ENOENT: no such file or directory, unlink '/root/.local/share/vsliveshare/cascade.json'
